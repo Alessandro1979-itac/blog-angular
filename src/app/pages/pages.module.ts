@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+
+import { ComponentsModule } from '../components/components.module';
 
 import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
@@ -10,11 +11,11 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     ContentComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     CommonModule,
-    RouterModule,
+    ComponentsModule,
   ]
 })
 export class PagesModule { }

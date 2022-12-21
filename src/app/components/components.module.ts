@@ -14,11 +14,15 @@ import { SmallCardComponent } from './small-card/small-card.component';
     BigCardComponent,
     MenuBarComponent,
     MenuTitleComponent,
-    SmallCardComponent
+    SmallCardComponent,
   ],
   imports: [
     CommonModule,
     RouterModule,
+    BigCardComponent,
+    MenuBarComponent,
+    MenuTitleComponent,
+    SmallCardComponent,
   ]
 })
 export class ComponentsModule { }
